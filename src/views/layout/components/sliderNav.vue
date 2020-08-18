@@ -13,7 +13,7 @@
     </div>
     <ul class="user-info">
       <li class="user-name">
-        user-info
+        {{$store.state.user.username}}
         <a-icon type="down" />
       </li>
       <li class="login-out">退出</li>
