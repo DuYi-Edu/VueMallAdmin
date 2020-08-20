@@ -1,5 +1,7 @@
-// import axios from '@/axios';
+import axios from '@/axios';
 
-// module.exports = {
-
-// };
+export default {
+  list(params) {
+    return axios.get('/products/all', { params });
+  },
+};
