@@ -300,13 +300,13 @@ method: delete
 
 url: /category/add
 
-method: GET
+method: POST
 
 请求参数：
 | 字段 | 类型 | 是否必须 | 备注 |
 |:-------| :-------: | :-------: |-------|
 | appkey | String | 必须 | 用户访问接口时所必须携带的身份凭证 |
-| id | String | 必须 | 商品类目 id |
+| id | Number | 必须 | 商品类目ID，必须是number类型 |
 |name | String | 必须| 商品类目名称|
 |c_items | Array<String> | 必须 | 商品子类目 |
 
